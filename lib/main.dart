@@ -32,7 +32,7 @@ class AppState extends State<App> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: isDefaultTheme ? ThemeData.light() : ThemeData.dark(),
-      initialRoute: '/home',
+      initialRoute: '/login',
       routes: {
         '/login': (context) => LoginPage(),
         '/home': (context) => HomePage(this.changeTheme),

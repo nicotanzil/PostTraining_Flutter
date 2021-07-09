@@ -91,7 +91,7 @@ class ItemPageState extends State<ItemPage> {
     this._init();
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
+        // automaticallyImplyLeading: false,
         title: Text('Our Items'),
       ),
       body: ListView(

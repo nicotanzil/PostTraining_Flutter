@@ -6,4 +6,4 @@ Color black = const Color(0xFF000000);
 Color primaryColorDarkBlue = const Color(0xFF232f3e);
 
 bool isDefaultTheme = true;
-String loggedInUsername = "Username";
+String loggedInUsername = "nico";

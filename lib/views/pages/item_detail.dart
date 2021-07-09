@@ -96,7 +96,6 @@ class ItemDetailPageState extends State<ItemDetailPage> {
         child: Scaffold(
           resizeToAvoidBottomInset: false,
           appBar: AppBar(
-            automaticallyImplyLeading: false,
             title: Text(item.getName),
             bottom: TabBar(
               tabs: [

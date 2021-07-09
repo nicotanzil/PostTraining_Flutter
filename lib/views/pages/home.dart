@@ -118,6 +118,20 @@ class HomePageState extends State<HomePage> {
                                 },
                               ),
                             ),
+                          ),
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/items');
+                            },
+                            child: Text('View Store'),
+                            style: ButtonStyle(
+                              backgroundColor:
+                                  MaterialStateProperty.resolveWith<Color>(
+                                (Set<MaterialState> states) {
+                                  return primaryColorYellow; // Use the component's default.
+                                },
+                              ),
+                            ),
                           )
                         ],
                       ),
